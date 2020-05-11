@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="hu-HU">
+<head>
+	<meta charset="utf-8">
+	<script src="js/4.5.js"></script>
+</head>
+<body>
+	<script>
+	
+		const david = new Olvaso("Dávid", "david@gmail.com");
+		const metro = new Konyv("Metró 2033", "Dmitry Glukhovsky", "9789630791397", "2019");
+		const tik = new Konyvtar();
+
+		tik.ujKonyv(metro);
+		tik.ujOlvaso(david);
+		david.kolcsonoz(metro);
+
+		console.log("A metró ki van-e kölcsönözve: " + (metro.kolcsonozve ? "Igen\nKi kölcsönözte ki: " + metro.olvaso.nev : "Nem"));
+		tik.lejartKonyvek();
+		console.log(david);
+
+	</script>
+</body>
+</html>

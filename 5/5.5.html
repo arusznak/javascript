@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>jQuery</title>
+<link href="css/vacation.css" rel="stylesheet" type="text/css" media="all">
+<script src="js/jquery-3.5.1.min.js"></script>
+<script src="js/5.5.js"></script>
+</head>
+
+<body>
+  <h1>Vakációs csomagok</h1>
+  <div id='filters'>
+	  <button class='onsale-filter'>Akciós utak</button>
+	  <button class='expiring-filter'>Lejáró ajánlatok</button>
+  </div>
+  
+  <ul id="boxes">
+    <li class="vacation onsale" data-price='399.99'>
+      <h2>New York, New York</h2>
+	    <button>Foglalás</button>
+      <p>Hozzászólások:</p>
+      <ul class='comments'>
+	      <li>&quot;Már alig várom az utat.&quot;</li>
+      </ul>
+    </li>
+    <li class="vacation" data-price='149.55'>
+      <h2>Franciaország, Párizs</h2>
+	    <button>Foglalás</button>
+      <p>Hozzászólások:</p>
+      <ul class='comments'>
+	      <li>&quot;Ez egy kihagyhatatlan ajánlat.&quot;</li>
+      </ul>
+    </li>
+    <li class="vacation expiring" data-price='248.22'>
+      <h2>Japán, Tokió</h2>
+	    <button>Foglalás</button>
+      <p>Hozzászólások:</p>
+      <ul class='comments'>
+	      <li>&quot;Sosem voltam még.&quot;</li>
+      </ul>
+    </li>
+  </ul>
+</body>
+</html>

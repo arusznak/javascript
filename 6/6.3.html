@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>jQuery</title>
+<link href="css/vacation.css" rel="stylesheet" type="text/css" media="all">
+<script src="js/jquery-3.5.1.min.js"></script>
+<script src="js/6.3.js"></script>
+</head>
+
+<body>
+  <h1>Adminisztrációs felület</h1>
+  <p>Ezen az oldalon tudja módosítani [m] vagy törölni [d] az egyes hozzászólásokat!</p>
+  <ul id="boxes">
+    <li class="vacation" data-price="$399.99">
+      <h2>New York, New York</h2>
+      <p>Hozzászólás módosítása:<br><input type="text" disabled></p>
+      <p>Hozzászólások:</p>
+      <ul class="comments">
+      	<li data-id="1">Nagyon tetszett a hosszú kirándulás! <a class="modify" href="#">[m]</a> <a class="del" href="#">[d]</a></li>
+        <li data-id="2">Valaki elvihetne ide... :3 <a class="modify" href="#">[m]</a> <a class="del" href="#">[d]</a></li>
+      </ul>
+    </li>
+    <li class="vacation" data-price="$399.99">
+      <h2>Budapest, Hungary</h2>
+      <p>Hozzászólás módosítása:<br><input type="text" disabled></p>
+      <p>Hozzászólások:</p>
+      <ul class="comments">
+        <li data-id="6">A véradásomon nyertem. :) <a class="modify" href="#">[m]</a> <a class="del" href="#">[d]</a></li>
+        <li data-id="11">Ellopták a poggyászunkat... :( <a class="modify" href="#">[m]</a> <a class="del" href="#">[d]</a></li>
+      </ul>
+    </li>
+  </ul>
+</body>
+</html>

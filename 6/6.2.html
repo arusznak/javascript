@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>jQuery</title>
+<link href="css/vacation.css" rel="stylesheet" type="text/css" media="all">
+<script src="js/jquery-3.5.1.min.js"></script>
+<script src="js/6.2.js"></script>
+</head>
+
+<body>
+  <h1>Adminisztrációs felület</h1>
+  <p>Ezen az oldalon tud új hozzászólást beszúrni, vagy törölni [d] a már meglévőket!</p>
+      
+  <ul id="boxes">
+  	<li class="vacation">
+      <h2>Adminisztráció</h2>
+      <p>Hozzászólás beszúrása:<br><input id="opinion" type="text" disabled></p>
+      <p>Beszúrás helye:<br><input id="id" value="1" type="number" disabled></p>
+      <p><button>Beszúr</button></p>
+    </li>
+    <li class="vacation">
+      <h2>New York, New York</h2>
+      <p>Hozzászólások:</p>
+      <ul class="comments">
+      	<li><span>Nagyon tetszett a hosszú kirándulás!</span> <a class="del" href="#">[d]</a></li>
+        <li><span>Valaki elvihetne ide... :3</span> <a class="del" href="#">[d]</a></li>
+      </ul>
+    </li>
+    <li class="vacation">
+      <h2>Budapest, Hungary</h2>
+      <p>Hozzászólások:</p>
+      <ul class="comments">
+        <li><span>A véradásomon nyertem. :)</span> <a class="del" href="#">[d]</a></li>
+        <li><span>Ellopták a poggyászunkat... :(</span> <a class="del" href="#">[d]</a></li>
+      </ul>
+    </li>
+  </ul>
+</body>
+</html>

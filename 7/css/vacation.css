@@ -1,0 +1,108 @@
+	body {
+		background: url(../image/bg.jpg) repeat 0 0;
+		font-family: Calibri;
+		color: white;
+	}
+	
+	h1 {
+		color: white;
+	}
+	
+	a {
+		color: #78AAD6;
+	}
+	
+	a:hover {
+		text-decoration: none;
+	}
+	
+	ul {
+		list-style: none;
+	}
+	
+	h2 {
+		color: #909394;
+	}
+	
+	ul#boxes {
+		text-align: center;
+		display: inline;
+	}
+	
+	ul#boxes:after,
+	ul#boxes:before {
+		content: "";
+		display: table;
+	}
+	
+	ul#boxes:after {
+		clear: both;
+	}
+	
+	li.vacation, #filters {
+		width: 300px;
+		margin: 10px;
+		padding: 10px;
+		background-color: rgba(0,0,0,0.1);
+	}
+	
+	li.vacation.onsale.highlighted {
+		background-color: rgba(255,0,0,0.25);
+	}
+	
+	li.vacation.expiring.highlighted {
+		background-color: rgba(255,255,0,0.25);
+	}
+	
+	#filters button {
+		background-color: #2C3234;
+		border: 1px solid black;
+		color: #909394;
+		font-weight: bold;
+		font-size: 16px;
+		padding: 5px;
+		margin-right: 10px;
+	}
+	
+	li.vacation {
+		float: left;
+	}
+	
+	li.vacation button {
+		background-color: #69C84A;
+		width: 75%;
+		border: 1px solid black;
+		text-transform: uppercase;
+		font-weight: bold;
+		text-align: center;
+		font-size: 18px;
+		display: block;
+		margin: 0 auto 10px auto;
+	}
+	
+	li.vacation div {
+		padding: 10px;
+		background-color: rgba(255,0,0,0.25);
+	}
+	
+	ul.ticket {
+		display: none;
+		font-size: 13px;
+		text-align: left;
+		margin: 0 0 0 45px;
+		padding: 0;
+	}
+	
+	.comments, .tickets {
+		color: #909394;
+		display: block;
+		padding: 0;
+		margin: 0 0 10px 0;
+		font-style: italic;
+	}
+	
+	/* 10-es fájlhoz */
+	
+	p.price {
+		display: none;
+	}

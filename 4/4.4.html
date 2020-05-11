@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="hu-HU">
+<head>
+	<meta charset="utf-8">
+	<script src="js/4.4.js"></script>
+</head>
+<body>
+	<script>
+	
+		const buksi = new Kisallat('Buksi', 1, 'tacskó', 'Yip, yip!');
+		const cirmi = new Kisallat('Cirmi', 2, 'cirmos', 'Meooow!');
+		
+		buksi.beszel();
+		cirmi.beszel();
+		
+		console.log(cirmi.tevekenyseg);
+		
+		buksi.tulajdonos = 'Attila';
+		console.log(buksi.tulajdonos);
+		
+		buksi.tulajdonos = new Gazdi('Kornél', 'Szeged, Nyírfa u. 23.');
+		buksi.tulajdonos.telefon = '(30) 123-4567'
+		console.log(buksi.tulajdonos);
+
+	</script>
+</body>
+</html>
